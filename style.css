@@ -1,0 +1,174 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(84, 70, 94);
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+
+}
+a{
+    text-decoration: none;
+}
+
+header ul li{
+    margin: 10px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: rgb(252, 249, 244);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    width: 250px;
+}
+h1 {
+    font-size: 30px;
+    color: rgb(66, 66, 95);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+p {
+    font-size: 25px;
+    color: rgb(3, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(189, 163, 186);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 51, 51);
+}
+.caja img{
+    width: 400px;
+    border-style: solid;
+    border-color: rgb(118, 112, 199);
+}
+
+.maternidad img{
+    width: 400px;
+    border-style: solid;
+    border-color: rgb(118, 112, 199);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maternidad h1{
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: rgb(171, 136, 201);
+}
+.maternidad p{
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    background-color: rgba(100, 69, 97, 0.226);
+}
+
+.video {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulosorece h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(101, 68, 131);
+    margin-top: 40px;
+    background-color: rgb(144, 128, 160);
+}
+.titulosorece p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 243, 241);
+    background-color: rgba(118, 92, 143, 0.521);
+}
+
+.maps {
+    width: 500px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+}
+
+
+.transtornos {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    background: linear-gradient(rgb(156, 147, 196),rgb(194, 162, 162));
+    
+}
+
+
+.transtornos h1{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 252);
+}
+.transtornos p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.readMore_btn{
+    align-items: center;
+    background-color: rgba(74, 99, 212, 0);
+    border-radius: 25px;
+    color: beige;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.readMore_btn:hover {
+    box-shadow: none;
+    background-color: rgba(194, 102, 236, 0.425);
+    color: beige;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contenido {
+    display: none;
+}
+
+.show {
+    display: block;
+
+}
+.fondo {
+    background: linear-gradient(rgb(88, 67, 88),rgb(187, 116, 192));
+}
+
+
