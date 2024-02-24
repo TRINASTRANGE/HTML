@@ -17,6 +17,7 @@ a{
 }
 
 header ul li{
+    width: auto;
     margin: 10px;
     margin-top: 40px;
     font-size: 18px;
@@ -26,7 +27,7 @@ header ul li{
 }
 
 img {
-    width: 250px;
+    width: 70%;
 }
 h1 {
     font-size: 30px;
@@ -42,29 +43,58 @@ p {
     
     
 }
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 10px 0 10px 0;
-    background-color: rgb(189, 163, 186);
+.responsive{
+    background-color: rgb(189, 164, 196);
 }
-.caja{
-    width: 100%;
-    height: 100%;
-    padding: 10px;
+
+
+.caja1{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(51, 51, 51);
+    color: rgba(14, 14, 14, 0.671);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(189, 164, 196);
+    float: left;
+   
+    
 }
-.caja img{
-    width: 400px;
+.caja1 img{
+    width: 60%;
     border-style: solid;
     border-color: rgb(118, 112, 199);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caja2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(14, 13, 13);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(189, 164, 196);
+    float: left;
+    
+}
+.caja2 img{
+    width: 50%;
+    border-style: solid;
+    border-color: rgb(118, 112, 199);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .maternidad img{
@@ -87,7 +117,7 @@ p {
 }
 
 .video {
-    width: 500px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -109,7 +139,7 @@ p {
 }
 
 .maps {
-    width: 500px;
+    width: 100%;
     display: block;
     margin-left:auto ;
     margin-right: auto;
@@ -169,6 +199,15 @@ p {
 }
 .fondo {
     background: linear-gradient(rgb(88, 67, 88),rgb(187, 116, 192));
+}
+
+@media screen and(max-width: 800px){
+    .caja1{
+        width: 100%;
+    }
+    .caja2{
+        width: 100%;
+    }
 }
 
 
